@@ -102,7 +102,7 @@ def SimulateButton2(negativeButton, positiveButton, activationDelta):
 mouse_speed = [0,0]
 def SimulateMouseMoveX(speed, activationDelta):
 	def aux_fun(val):
-		total_move = speed * (abs(val) - activationDelta) / (65255.0-activationDelta)
+		total_move = speed * (abs(val) - activationDelta) / (32768.0-activationDelta)
 		if val >= activationDelta:
 			mouse_speed[0] = total_move
 		elif val <= -activationDelta:
@@ -114,7 +114,7 @@ def SimulateMouseMoveX(speed, activationDelta):
 
 def SimulateMouseMoveY(speed, activationDelta):
 	def aux_fun(val):
-		total_move = speed * (abs(val) - activationDelta) / (65255.0-activationDelta)
+		total_move = speed * (abs(val) - activationDelta) / (32768.0-activationDelta)
 		if val >= activationDelta:
 			mouse_speed[1] = total_move
 		elif val <= -activationDelta:

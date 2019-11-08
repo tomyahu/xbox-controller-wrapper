@@ -9,6 +9,7 @@ from aux_funs import PressButton, ReleaseButton, SetPressedKey, SetReleasedKey, 
 
 released_keys = dict()
 
+# The mutex for multithreaded structure handling (pressed keys)
 lock = threading.Lock()
 
 # Function that loops, taking the currently detected inputs of the
