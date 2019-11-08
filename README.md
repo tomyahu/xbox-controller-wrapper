@@ -11,7 +11,7 @@ and has not been tried in other python versions.
 ## Running the program
 Just run main.py
 
-´´> python main.py´´
+`> python main.py`
 
 ## Configuring the controller
 To configure the controller you have to edit the conf.py file.
@@ -38,4 +38,4 @@ Buttons is the variable that maps all the buttons in the controller
 * Left Analog
 * Right Analog
 
-In the file the functions used are explained.
+In conf.py its explained how to map the controller to the keyboard and mouse.
