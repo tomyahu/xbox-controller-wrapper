@@ -65,9 +65,9 @@ absolute[GAMEPAD_L2] = SimulateButton(DIK_S, 255) # value of GAMEPAD_L2 can be b
 absolute[GAMEPAD_PLUS_PAD_X] = SimulateButton2(DIK_A, DIK_D, 1) # value of GAMEPAD_PLUS_PAD_X can be -1, 0 or 1 (left is -1, right is 1)
 absolute[GAMEPAD_PLUS_PAD_Y] = SimulateButton2(DIK_W, DIK_S, 1) # value of GAMEPAD_PLUS_PAD_X can be -1, 0 or 1 (up is -1, down is 1)
 absolute[GAMEPAD_LEFT_ANALOG_X] = SimulateButton2(DIK_A, DIK_D, 10000) # value of GAMEPAD_LEFT_ANALOG_X can be between -32767 and 32767
-absolute[GAMEPAD_LEFT_ANALOG_Y] = SimulateButton2(DIK_W, DIK_S, 10000) # value of GAMEPAD_LEFT_ANALOG_Y can be between -32767 and 32767
-absolute[GAMEPAD_RIGHT_ANALOG_X] = SimulateMouseMoveX(100, 10000) # value of GAMEPAD_RIGHT_ANALOG_X can be between -32767 and 32767
-absolute[GAMEPAD_RIGHT_ANALOG_Y] = SimulateMouseMoveY(-100, 10000) # value of GAMEPAD_RIGHT_ANALOG_Y can be between -32767 and 32767
+absolute[GAMEPAD_LEFT_ANALOG_Y] = SimulateButton2(DIK_S, DIK_W, 10000) # value of GAMEPAD_LEFT_ANALOG_Y can be between -32767 and 32767
+absolute[GAMEPAD_RIGHT_ANALOG_X] = SimulateMouseMoveX(25, 10000) # value of GAMEPAD_RIGHT_ANALOG_X can be between -32767 and 32767
+absolute[GAMEPAD_RIGHT_ANALOG_Y] = SimulateMouseMoveY(-25, 10000) # value of GAMEPAD_RIGHT_ANALOG_Y can be between -32767 and 32767
 
 # =======================================================================================================
 # The interval of time the buttons are checked to press the mapped keys
