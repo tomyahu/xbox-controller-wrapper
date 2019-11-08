@@ -58,7 +58,7 @@ absolute = dict()
 #						in x to the right; when the trigger's value is lower
 #						than threshold*(-1) the mouse moves in x to the right.
 #
-#		SimulateMouseMoveY is the same as SimulateMouseMoveY but made for the y axis of analogs and the plus pad
+#		SimulateMouseMoveY is the same as SimulateMouseMoveX but made for the y axis of analogs and the plus pad
 #
 absolute[GAMEPAD_R2] = SimulateButton(DIK_A, 255) # value of GAMEPAD_R2 can be between 0 and 255
 absolute[GAMEPAD_L2] = SimulateButton(DIK_S, 255) # value of GAMEPAD_L2 can be between 0 and 255
