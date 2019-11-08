@@ -26,3 +26,5 @@ absolute[GAMEPAD_LEFT_ANALOG_Y] = SimulateButton2(DIK_W, DIK_S, 10000) # Tercer 
 
 absolute[GAMEPAD_RIGHT_ANALOG_X] = SimulateMouseMoveX(100, 10000) # Primer numero es la velocidad, Segundo numero puede ser entre -65255 y 65255
 absolute[GAMEPAD_RIGHT_ANALOG_Y] = SimulateMouseMoveY(-100, 10000) # Primer numero es la velocidad, Segundo numero puede ser entre -65255 y 65255
+
+refresh_time = 1/60
