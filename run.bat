@@ -1,2 +1,0 @@
-python get_ctrl_input.py
-pause
